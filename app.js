@@ -1,10 +1,25 @@
 var Express = require('express');
-var Util = require('util');
+var PORT = 8080;
 
+// create an Express app
 var app = Express();
 
+/*** SERVER SETUP ********************************************************************************/
+
+
+/*** REQUEST HANDLERS ****************************************************************************/
+
+// GET / (site root handler)
 app.get('/', function (req, res, next) {
-    res.send(req.ip);
+    res.send("Hello World!");
 });
 
-app.listen(80, function (err) { console.log(err || 'Server listening'); });
+/*** SERVER STARTUP ******************************************************************************/
+
+// start up
+app.listen(PORT, function (err) {
+    if (err) return console.error(err);
+    console.log('Server listening on port ' + PORT);
+});
+
+/*** HELPERS *************************************************************************************/
