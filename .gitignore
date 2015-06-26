@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/bin
+/node_modules
+/obj/Debug
+/.ntvs_analysis.dat
+/test-2.njsproj
+/test-2.sln
+/test-2.v12.suo
