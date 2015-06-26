@@ -7,20 +7,23 @@ Requirements:
 1. Node.js https://nodejs.org/
 2. NPM https://www.npmjs.com/
 3. GitHub
-3. A browser
+4. A browser
+5. MongoDB 2.6.x https://www.mongodb.org/downloads#previous
 
 Follow these instructions to launch:
 
 1. Use GitHub to clone branch to a local folder
 2. Launch terminal/cmd and `cd` to the local folder
 3. Use NPM to install by running `npm install` in terminal/cmd
-4. Run using Node.js `node app.js`
-5. If all went well, open a browser and navigate to `http://localhost:8080`
+4. Launch mongod `mongod --dbpath /path/to/mongo/data`
+5. Run using Node.js `node app.js`
+6. If all went well, open a browser and navigate to `http://localhost:8080`
 
 Additional:
 1. Navigate to `http://localhost:8080/cookies` to see all signed cookies
 2. Navigate to `http://localhost:8080/cookies/set` to set cookieVal to 0 for 5 minutes. Repeat to increment the cookieVal.
 3. Navigate to `http://localhost:8080/cookies/unset` to clear cookieVal.
+4. Navigate to `http://localhost:8080/mongo` to add a message to mongodb. Once a value is submitted, navigate back to see all submitted values.
 
 Bonus:
 
