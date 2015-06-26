@@ -20,6 +20,7 @@ Follow these instructions to launch:
 6. If all went well, open a browser and navigate to `http://localhost:8080`
 
 Additional:
+
 1. Navigate to `http://localhost:8080/cookies` to see all signed cookies
 2. Navigate to `http://localhost:8080/cookies/set` to set cookieVal to 0 for 5 minutes. Repeat to increment the cookieVal.
 3. Navigate to `http://localhost:8080/cookies/unset` to clear cookieVal.
