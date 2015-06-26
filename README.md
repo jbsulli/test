@@ -1,6 +1,6 @@
-# 1 - Config File
+# 2 - (More) Advanced Server
 
-Just a simple Express.js Node.js application with a config file.
+Express.js Node.js application with a config file, static file serving, and POST/JSON request handling.
 
 Requirements:
 
@@ -22,3 +22,5 @@ Bonus:
 1. Edit the config file to change the port to 1337
 2. Run using Node.js `node app.js`
 3. Navigate to `http://localhost:1337`
+4. Send GET/POST/JSON to `http://localhost:8080/data` to see it work.
+5. Toggle settings in the config file.

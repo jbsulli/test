@@ -1,3 +1,6 @@
 ﻿module.exports = {
-    port: 8080
+    json: true,
+    port: 8080,
+    post: true,
+    static_folder: 'public'
 };
